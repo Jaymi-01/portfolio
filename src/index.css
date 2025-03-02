@@ -14,9 +14,10 @@ body{
     --color-span: #1c2541;
     --color-midnight: #141414;
     --color-black: #000000;
-    --color-white: #fffff;
+    --color-white: #ffffff;
     --color-bermuda: #78dcca;
     --color-mysql: #00758f;
+    --color-prof: #030d18;
 }
 
 @layer utilities {
