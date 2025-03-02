@@ -1,2 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 @import "tailwindcss";
 
+body{
+    background-color: #141414;
+    font-family: "Poppins", sans-serif;
+}    
+
+@theme{
+    --font-script: Merienda, sans-serif;
+    --color-primary: #1d5c8e;
+    --color-secondary: #01172f;
+    --color-span: #1c2541;
+    --color-midnight: #141414;
+    --color-black: #000000;
+    --color-white: #fffff;
+    --color-bermuda: #78dcca;
+    --color-mysql: #00758f;
+}
+
+@layer utilities {
+    @keyframes blink {
+      0%,
+      100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+    }
+}    
+
+/* h2{
+    text-xl md:text-4xl
+}
+
+p{
+    text-xl tracking-tight leading-relaxed
+}*/
+
+.shiny-effect{
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 1;
+    background: radial-gradient(circle, var=(color-primary),transparent 70%);
+}
