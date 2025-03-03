@@ -1,6 +1,6 @@
 import { FaArrowRight } from "react-icons/fa";
-import { CgMail } from "react-icons/cg";
-import { FaPhoneAlt } from "react-icons/fa";
+// import { CgMail } from "react-icons/cg";
+// import { FaPhoneAlt } from "react-icons/fa";
 export const proficiency = [
     {
         text: "Html"
@@ -68,16 +68,16 @@ export const projects =[
     },
 ]
 
-export const contact =[
-    {
-        icon: <CgMail />,
-        text: "millerjoel7597@gmail.com",
-        link: "mailto:millerjoel7597@gmail.com",
-    },
-    {
-        icon: <FaPhoneAlt />,
-        text: "+2348097177851",
-        link: "tel:+2348097177851",
-    },
+// export const contact =[
+//     {
+//         icon: <CgMail />,
+//         text: "millerjoel7597@gmail.com",
+//         link: "mailto:millerjoel7597@gmail.com",
+//     },
+//     {
+//         icon: <FaPhoneAlt />,
+//         text: "+2348097177851",
+//         link: "tel:+2348097177851",
+//     },
 
-]
+// ]
