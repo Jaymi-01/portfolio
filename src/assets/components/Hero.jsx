@@ -1,10 +1,19 @@
 import React from "react";
 import profilepic from "/src/assets/profilepic.jpg";
+import CV from "/src/assets/joel.pdf";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
 
 const Hero = () => {
+    const handleDownloadCV = () => {
+        const link = document.createElement("a");
+        link.href = CV;
+        link.download = "joel.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      };
   return (
     <div className="mt-24 relative">
         <div className="grid md:grid-cols-2 gap-8 ">
@@ -47,7 +56,7 @@ const Hero = () => {
                 >
                     <motion.button whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
                         className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto px-4 py-2 border
-                                     border-primary rounded-xl hover:bg-primary"     
+                                     border-primary rounded-xl hover:bg-primary" onClick={handleDownloadCV}     
                     >
                         Download CV
                     </motion.button>

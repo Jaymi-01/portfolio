@@ -43,7 +43,7 @@ const TechnicalSkills = () => {
       whileInView="visible" // Trigger animation on scroll
       viewport={{ once: true }}
     >
-      <h1 className="text-2xl md:text-4xl">Technical Proficiency</h1>
+      <h1 className="text-2xl md:text-4xl font-semibold">Technical Proficiency</h1>
       <p className="opacity-50 mt-5">A comprehensive toolkit</p>
       <AnimatePresence>
         <motion.div
