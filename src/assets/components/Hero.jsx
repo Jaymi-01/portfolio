@@ -1,5 +1,5 @@
 import React from "react";
-import profilepic from "/src/assets/profilepic.jpg";
+import me from "/src/assets/me.jpg";
 import CV from "/src/assets/joel.pdf";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
@@ -61,25 +61,12 @@ const Hero = () => {
                         Download CV
                     </motion.button>
 
-                    {/* <div className="flex gap-6 flex-row text-4xl md:text-6xl text-primary z-20">
-                        <motion.a whileHover={{ scale: 1.2 }} href="#">
-                            <AiOutlineGithub/>
-                        </motion.a>
-
-                        <motion.a whileHover={{ scale: 1.2 }} href="#">
-                            <AiOutlineLinkedin/>
-                        </motion.a>
-
-                        <motion.a whileHover={{ scale: 1.2 }} href="#">
-                            <AiOutlineTwitter/>
-                        </motion.a>
-                    </div> */}
                 </motion.div>
             </motion.div>
 
             <div className="place-items-center">
                 <motion.img 
-                src={profilepic}
+                src={me}
                 className="w-[200px] md:w-[350px] rounded-full"
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
