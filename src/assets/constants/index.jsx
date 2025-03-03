@@ -71,11 +71,13 @@ export const projects =[
 export const contact =[
     {
         icon: <CgMail />,
-        text: "millerjoel7597@gmail.com"
+        text: "millerjoel7597@gmail.com",
+        link: "mailto:millerjoel7597@gmail.com",
     },
     {
         icon: <FaPhoneAlt />,
-        text: "+2348097177851"
+        text: "+2348097177851",
+        link: "tel:+2348097177851",
     },
 
 ]

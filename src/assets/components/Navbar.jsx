@@ -54,9 +54,9 @@ const Navbar = () => {
             initial={false}
             animate={nav ? 'open' : 'closed'}
             variants={menuVariants}
-            className='fixed left-0 top-0 w-full min-h-screen bg-gray-900 z-40'
+            className='fixed left-0 top-0 w-full min-h-screen bg-secondary/70 z-40'
             >
-                <ul className='font-semibold text-4xl space-y-8 mt-24 text-center'>
+                <ul className='font-semibold text-1xl space-y-8 mt-24 text-center '>
                     <li><Link to="about" onClick={closeNav} smooth={true} offset={50} duration={500}>About</Link></li>
                     <li><Link to="skills" onClick={closeNav} smooth={true} offset={50} duration={500}>Skill</Link></li>
                     <li><Link to="project" onClick={closeNav} smooth={true} offset={50} duration={500}>Projects</Link></li>

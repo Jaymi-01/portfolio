@@ -9,8 +9,8 @@ const Contact = () => {
         <div>{contact.map((contact, index) => (
             <div key={index}>
                 <div className='place-items-center mt-8'>
-                    <span className='text-4xl'>{contact.icon}</span>
-                    <h5 className='2xl opacity-70 mt-2'><a href="{contact.text}">{contact.text}</a></h5>
+                    <span className='text-sm md:text-xl'>{contact.icon}</span>
+                    <h5 className='text-sm md:text-xl opacity-70 mt-2'><a href="{contact.link}">{contact.text}</a></h5>
                 </div>
             </div>
         )

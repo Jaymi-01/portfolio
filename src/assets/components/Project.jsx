@@ -31,7 +31,7 @@ const Project = () => {
           </p>
           <AnimatePresence>
             <motion.div
-              className="grid grid-cols-1 gap-4 md:grid-cols-2 mt-10 px-10 mx-auto"
+              className="grid grid-cols-1 gap-4 md:grid-cols-2 mt-10 mx-auto"
               variants={containerVariants}
             >
               {projects.map((project, index) => (
@@ -42,8 +42,8 @@ const Project = () => {
                 >
                   <div className="mt-10 px-6 py-4 border border-neutral-900 bg-secondary/10 rounded-xl">
                     <div>
-                      <h1 className="text-xl">{project.title}</h1>
-                      <p className="text-sm mt-2 text-primary font-bold">
+                      <h1 className="text-xl md:sm">{project.title}</h1>
+                      <p className="text-sm md:xl mt-2 text-primary font-semibold">
                         {project.tools}
                       </p>
                     </div>
