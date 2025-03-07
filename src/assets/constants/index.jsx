@@ -62,8 +62,15 @@ export const projects =[
     {
         title: "Advice Generator App",
         tools: "html + CSS + JavaScript",
-        text: "A webpage that uses the adviceslip Api to generate a n3w advice on every page load.",
+        text: "A webpage that uses the adviceslip Api to generate a new advice on every page load.",
         link: "https://my-auto-advice-generator.netlify.app/",
+        icon: <FaArrowRight />,
+    },
+    {
+        title: "Movie App",
+        tools: "React + TailwindCSS + JavaScript",
+        text: "A webpage built with TVShow API that contains several movie recommendation.",
+        link: "https://joel-movie-app.vercel.app/",
         icon: <FaArrowRight />,
     },
 ]
