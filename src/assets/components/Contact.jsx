@@ -10,11 +10,11 @@ const Contact = () => {
         <div>
             <div>
                 <div className='mt-8'>
-                  <div className='place-items-center mt-8'>
+                  <div className='flex flex-row items-center gap-3 mt-8'>
                     <span className='text-sm md:text-xl'><CgMail /></span>
                     <h5 className='text-sm md:text-xl opacity-70 mt-2'><a href="mailto:millerjoel7597@gmail.com">millerjoel7597@gmail.com</a></h5>
                   </div>
-                  <div className='place-items-center mt-8'>
+                  <div className='flex flex-row items-center gap-3 mt-8'>
                     <span className='text-sm md:text-xl'><FaPhoneAlt /></span>
                     <h5 className='text-sm md:text-xl opacity-70 mt-2'><a href="tel:+2348097177851">+2348097177851</a></h5>
                   </div>
