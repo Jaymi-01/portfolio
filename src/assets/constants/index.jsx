@@ -18,6 +18,9 @@ export const proficiency = [
         text: "ReactJs"
     },
     {
+        text: "C#"
+    },
+    {
         text: "PHP"
     },
     {
